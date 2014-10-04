@@ -1,0 +1,20 @@
+{
+  "name": "mikefunk/db-drop-tables",
+  "description": "A laravel command to drop all mysql database tables",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Funk",
+      "email": "mike@mikefunk.com"
+    }
+  ],
+  "require-dev": {
+    "orchestra/testbench": "2.2.*",
+    "mockery/mockery": "0.9.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "MikeFunk\\DbDropTables\\": "src/MikeFunk/DbDropTables"
+    }
+  }
+}
