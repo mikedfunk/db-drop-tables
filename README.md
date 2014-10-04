@@ -1,6 +1,8 @@
 db-drop-tables
 ==============
 
+[![Build Status](https://travis-ci.org/mikedfunk/db-drop-tables.svg?branch=develop)](https://travis-ci.org/mikedfunk/db-drop-tables)
+
 In development, schema can be constantly changing. You don't want to have to
 add a migration file for every single column modification/addition/removal, do
 you? So just run this, then artisan migrate, then artisan db:seed. Or wrap those
