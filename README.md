@@ -26,4 +26,4 @@ up in a phing command (or another artisan command) and do them in one shot.
 
 ## Usage
 
-Call the command from within laravel with `php artisan db:drop-tables`. It will confirm that you want to drop all of your tables in your MySQL database.
+Call the command from within laravel with `php artisan db:drop-tables`. It will confirm that you want to drop all of your tables in your MySQL database. Want to skip the question and just do it? use `--no-interaction` or `-n`.
