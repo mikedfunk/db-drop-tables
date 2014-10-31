@@ -10,7 +10,7 @@ up in a phing command (or another artisan command) and do them in one shot.
 
 ## Installation
 
-1. Install via [composer](http://getcomposer.org): `composer require --dev mike-funk/db-drop-tables:dev-master`
+1. Install via [composer](http://getcomposer.org): `composer require --dev mikefunk/db-drop-tables:dev-master`
 2. Add the service provider to your `app/config/app.php` in the `providers` area: `'MikeFunk\DbDropTables\DbDropTablesServiceProvider',`
 3. This will *not* work until you add a connection for the `mysql_information_schema` database in `app/config/database.php`:
 
